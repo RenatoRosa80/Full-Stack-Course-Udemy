@@ -1,0 +1,113 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  margin-top: 20px;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 45%;
+  margin-bottom: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Evita repetição desnecessária */
+.plus, .cop {
+  width: 45%;
+  margin-bottom: 40px;
+}
+
+.creative {
+  color: midnightblue;
+  font-weight: bold;
+}
+
+.love .passion {
+  color: yellowgreen;
+  font-weight: lighter;
+}
+
+
+.design {
+  display:inline-block;
+  color: midnightblue;
+  font-size: medium;
+  font-weight: bold;
+  text-align: end;
+}
+
+/* Responsividade */
+@media (max-width: 680px) {
+  body {
+    margin: 20px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .card, .plus, .cop {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    float: none;
+  }
+
+  .card img, 
+  .plus img, 
+  .cop img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .div > .design .p {
+    text-align:end;
+
+  }
+}
