@@ -1,0 +1,28 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Usando dois selectors - Pai e filho. Filho ira ser alterado*/
+.box > p {
+    color: firebrick;
+}
+
+
+.box li {
+    color: blue;
+}
+
+/* Chaning - usar selestors (ELEMENT) sem espaco para alterar mais de uma classe com mesmo nome*/
+li.done {
+    color: olive;
+}
+
+/* SELECTOR SELECTORSELECTOR (CHANING) {
+                        font-size: 2rem; */
+ul p.done {
+    font-size: 0.5rem;
+}                      
+
+
+
